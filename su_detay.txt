@@ -1,0 +1,73 @@
+ÖLÇÜMLER
+
+Bütün hidrolojik çalışmalarda ilk adım gerekli doğal verilerin toplanması için ölçümler yapılmasıdır.
+Hidrolojik olayları laboratuvarda benzeştirmek bugün için mümkün olmadığından ölçümlerin doğrudan doğruya doğada
+yapılması gerekmektedir. Bunun için yeteri sıklıkta bir ölçme ağının kurulması, bu ağdaki istasyonların yeterli hassasiyeti
+olan araçlarla donatılması ve bu ölçeklerin itinalı bir şekilde okunması gerekir. Hidrolojik veriler gerek zamanla gerekse
+yerden yere çok değiştikleri için ölçmelerin sık noktalarda ve sürekli olarak yapılması gereklidir. Son yıllarda hidrolojik
+ölçümlerde hassasiyeti arttıran araçlar kullanılmaktadır, bu arada nükleer tekniklerin kullanılması gittikçe yaygınlaşmaktadır.
+
+
+VERİLERİN İŞLENMESİ
+
+Ölçmeler sonunda elde edilen bilgiler çok sayıda ve dağınıktır.
+Bu verilerin insan eliyle kaydedilmesi yerine otomatik olarak kartlara, şeritlere geçirilmesi ve
+veri tabanları halinde saklanması uygundur. Bu kayıtları en iyi şekilde yararlanılabilecek hale getirmek gerekir.
+Bu iş için günümüzde ileri bilgi işlem metotları kullanılmakta, işlemler bilgisayarlarla yapılmaktadır.
+
+
+MATEMATİK MODELLER KURULMASI
+
+Bütün hidrolojik verileri ölçerek elde etmek ekonomik olmayacağı gibi birçok hallerde mümkün de olmadığından
+ölçümlerin bulunmadığı ya da yetersiz olduğu hallerde hidrolojik olayları yöneten kanunların belirlenmesi için
+bu olayların matematik modellerinin kurulması ve bunların doğruluğunun ölçme sonuçlarıyla karşılaştırılarak kontrol edilmesi gerekir.
+Fizik kanunları esas alınarak kurulan bu modeller doğadaki hidrolojik sistemlerin soyutlanmış benzerleri olarak düşünülebilir.
+Bu modellerin kurulmasında sistem analizi metotları önem kazanmaktadır. Hidrolojik modeller insanların doğada yapacakları
+değişikliklerin sonunda hidrolojik büyüklüklerde oluşacak değişmelerin tahmininde de kullanılır.
+
+
+OLASILIK HESABI VE İSTATİSTİK METOTLARININ KULLANILMASI
+
+Hidrolojik olaylar değerleri zaman içinde değişen çok sayıda değişkenin etkisi altında meydana
+geldikleri için önceden kesinlikle belirlenemeyen bir nitelik taşırlar. Örneğin elde bulunan
+30 yıllık ölçme sonuçlarını kullanarak bir akarsuda gelecek 100 yıl içinde görülecek en büyük taşkını
+kesin olarak belirlemek mümkün değildir. Bu bakımdan olasılık teorisi ve istatistiğin hidrolojide
+kullanılması büyük önem taşır. Ancak bu bilimler yardımıyla 100 yıllık taşkın debisi için
+tahminler yapmak mümkün olabilir. Bu bilimlerin hidrolojideki önemleri son yıllarda daha iyi anlaşılmış
+ve hidroloji öğretiminde bu gibi metotlara büyük bir yer verilmeye başlanmıştır. Ancak unutulmaması gereken
+bir nokta bu metotları gözü kapalı olarak uygulamamak, daima önce hidrolojik olayın fiziksel yönlerini
+incelemek zorunluluğudur.
+
+Hidrolojik olayların incelemesinde değişkenlerin çokluğu ve aralarındaki ilişkilerin karmaşıklığı
+yüzünden teorik bir analiz çoğu zaman mümkün olmadığından yaklaşık yöntemler kullanmak gerekir.
+Bu sebeple birçok problemlerin çözümü için birden fazla yöntem kullanılabileceği görülür.
+Bunların arasında uygun bir seçim yapmak bilgi ve deneyimi gerektirir.
+Kullanılacak metot incelenen olayın zaman ölçeğiyle de ilişkilidir.
+
+ÇEVRİM
+
+Su doğada çeşitli yerlerde ve çeşitli hallerde bulunmakta ve yer küresinin çeşitli kısımları arasında durmadan
+dönüp durmaktadır. Yerküresinin iklim sistemi ile yakından ilişkili olan hidrolojik çevrim günlük
+ve yıllık periyotları olan bir süreçtir.
+
+Atmosfer biriktirme sisteminden yüzeysel biriktirme sistemine düşen yağışın bir kısmı sızma
+yoluyla zemin nemi biriktirme sistemine, oradan da perkolasyon yoluyla yer altı biriktirme
+sistemine geçmektedir. Her üç sistemin de buharlaşma ve terleme yoluyla atmosfer ile ilişkileri bulunduğu
+gibi yüzeysel biriktirme sistemine düşen yağış eklenip buharlaşma kayıpları çıktıktan sonra geriye kalan
+su akarsularda akış şeklinde denizlere veya göllere ulaşmakta, oradan buharlaşma ile atmosfere geri dönmektedir.
+Hidrolojik çevrim sırasında su aynı zamanda yer yüzeyinden söktüğü katı taneleri akarsular yoluyla
+göl ve denizlere taşıyarak yerkabuğunun biçim değiştirmesine sebep olur.
+
+HİDROLOJİK DOLAŞIM
+
+Yeryüzüne düşen yağış yoluyla oluşan sular, yağış esnasında daha yere ulaşmadan, arazi üzerinden akarken
+ve bitkiler tarafından alınıp terleme yolu ile dışarı çıkıp buharlaşır. Bu suyun kısa dolaşım yapması ve tekrar
+atmosfere dönmesi olayıdır.
+
+Aynı şekilde oluşan suların bir kısmı ise yüzeyde akar ve çeşitli akarsuları oluşturur.
+Diğer bir kısmı da yeraltına sızar; buralarda birikir ve yeraltısularını meydana getirir.
+Yeraltına sızan bu sular boşlukları ve çatlakları doldurur; bu boşluk ve çatlaklar boyunca
+derinlere kadar gider; ya da bir noktadan "Kaynak" şeklinde yeryüzüne yeniden çıkar,
+akarsulara, göllere veya denize boşalır. Bu yüzden su daha uzun yollu Büyük dolaşım yapmış olur.
+Suyun çeşitli şekillerde yapmış olduğu bu dolaşımlarına "Hidrolojik Dolaşım" adı verilir.
+Bu devam edegelen döngü, güneş kaynaklı ısı enerjisi ve yerçekimi ile oluşmaktadır.
