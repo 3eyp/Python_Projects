@@ -25,5 +25,3 @@ def selams():
 
 selams()
 
-
-
