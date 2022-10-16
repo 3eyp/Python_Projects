@@ -268,6 +268,7 @@ while True:
         def yasHesapla(dogum):
             return dogum
         yasHesapla(dogumyili)
+        
         class Not():
             def yaz(self):
                 result = input("\n ...Notlarım... \n")
