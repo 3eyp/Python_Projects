@@ -75,6 +75,16 @@ q15=Question("Aşağıdakilerden hangisinde doğru fonksiyon kullanımı vardır
 questions=[q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15]
 questions = Quiz(questions)
 
+class Not():
+            def yaz(self):
+                result = input("\n ...Notlarım... \n")
+                with open("notlarim.txt", "a", encoding="UTF-8") as file:
+                    file.write(result)
+
+            def oku(self):
+                with open("notlarim.txt", encoding="UTF-8") as file:
+                    print(f"{colorama.Fore.RED + ' === Notlarınız ==='.center(90)}\n")
+                    print(colorama.Fore.YELLOW + file.read())
 
 print(colorama.Fore.LIGHTGREEN_EX + "\n"+"  *************** BİLGİ VE İSTATİSTİK ÇALIŞMASI *************** ".center(116)+"\n")
 while True:
@@ -268,19 +278,10 @@ while True:
         def yasHesapla(dogum):
             return dogum
         yasHesapla(dogumyili)
-        
-        class Not():
-            def yaz(self):
-                result = input("\n ...Notlarım... \n")
-                with open("notlarim.txt", "a", encoding="UTF-8") as file:
-                    file.write(result)
 
-            def oku(self):
-                with open("notlarim.txt", encoding="UTF-8") as file:
-                    print(f"{colorama.Fore.RED + ' === Notlarınız ==='.center(90)}\n")
-                    print(colorama.Fore.YELLOW + file.read())
-        n = Not()
+        
     elif islem=="8":
+        n = Not()
         print((f"{colorama.Fore.GREEN + ' =MENÜ= '.center(90)}\n{colorama.Fore.YELLOW + 'Not Yaz -1'}\n{colorama.Fore.YELLOW + 'Notlarımı Oku -2'}\n{colorama.Fore.RED+'Çıkış -q'}\n"))
         sec = input(f"Seçiminiz = ")
         if sec == "1":
@@ -291,6 +292,7 @@ while True:
             with open("notlarim.txt",encoding="UTF-8") as file4:
                 print(colorama.Fore.RED,"... Notlarınız ...".center(50))
                 print(colorama.Fore.GREEN,file4.read())
+       
         while True:
                 import colorama
                 print((f"\n{colorama.Fore.GREEN+'=MENÜ='.center(90)}\n{colorama.Fore.YELLOW+'Not Yaz,Devam -1'}\n{colorama.Fore.YELLOW+'Notlarımı Oku -2'}\n{colorama.Fore.RED+'Çıkış -q'}\n"))
@@ -310,6 +312,8 @@ while True:
                 else:
                     print(" ... Hatalı Seçim ... ")
                     continue
+        
+
     elif islem=="7":
         print(colorama.Fore.MAGENTA + " Menü \n".center(100))
         print("1-) 1 ile 10 arasında oyun\n2-) 1 ile 100 arasında oyun\n3-) 10 ile 1000 arasında oyun\n")
