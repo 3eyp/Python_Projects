@@ -1,3 +1,2 @@
-
--merhaba
--ben eyup
+- Hi
+- My name is Eyup

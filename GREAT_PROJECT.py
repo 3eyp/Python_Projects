@@ -78,7 +78,7 @@ questions = Quiz(questions)
 class Not():
             def yaz(self):
                 result = input("\n ...Notlarım... \n")
-                with open("my_notes.txt", "a", encoding="UTF-8") as file:
+                with open("my_notes.txt", "w", encoding="UTF-8") as file:
                     file.write(result)
 
             def oku(self):
@@ -285,30 +285,30 @@ while True:
         print((f"{colorama.Fore.GREEN + ' =MENÜ= '.center(90)}\n{colorama.Fore.YELLOW + 'Not Yaz -1'}\n{colorama.Fore.YELLOW + 'Notlarımı Oku -2'}\n{colorama.Fore.RED+'Çıkış -q'}\n"))
         sec = input(f"Seçiminiz = ")
         if sec == "1":
-            with open("notlarim.txt","w",encoding="UTF-8") as file2:
-                result=input("Notlarım =  ")
-                file2.write(f"\n{'-'}{ result}")
+            with open("my_notes.txt","a",encoding="UTF-8") as file2:
+                result=input("\nNotlarım =\n")
+                file2.write(f"\n{'-'} { result}")
         elif sec == "2":
-            with open("notlarim.txt",encoding="UTF-8") as file4:
+            with open("my_notes.txt",encoding="UTF-8") as file4:
                 print(colorama.Fore.RED,"... Notlarınız ...".center(50))
-                print(colorama.Fore.GREEN,file4.read())
+                print(colorama.Fore.MAGENTA+file4.read())
        
         while True:
                 import colorama
                 print((f"\n{colorama.Fore.GREEN+'=MENÜ='.center(90)}\n{colorama.Fore.YELLOW+'Not Yaz,Devam -1'}\n{colorama.Fore.YELLOW+'Notlarımı Oku -2'}\n{colorama.Fore.RED+'Çıkış -q'}\n"))
                 sec = input(f"Seçiminiz = ")
                 if sec=="2":
-                    with open("notlarim.txt",encoding="UTF-8") as file3:
-                        print(colorama.Fore.RED+f"{' =Notlatınız = '.center(90)}")
-                        print(colorama.Fore.YELLOW+f"{file3.read()}")
+                    with open("my_notes.txt",encoding="UTF-8") as file3:
+                        print(colorama.Fore.RED+f"{' =Notlarınız = '.center(90)}")
+                        print(colorama.Fore.MAGENTA+f"{file3.read()}")
                 elif sec=="q":
                     print(colorama.Fore.MAGENTA,"Ana menüye aktarılıyorsunuz...")
                     time.sleep(1)
                     break
                 elif sec=="1":
-                    with open("notlarim.txt","a",encoding="UTF-8") as file:
+                    with open("my_notes.txt","a",encoding="UTF-8") as file:
                         ekle=input("Not devam:\n")
-                        file.write(f"\n{'-'}{ ekle}")
+                        file.write(f"\n{'-'} {ekle}")
                 else:
                     print(" ... Hatalı Seçim ... ")
                     continue
