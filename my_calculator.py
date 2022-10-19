@@ -4,8 +4,6 @@ import colorama
 class HesapMakinem():
 
     def __init__(self):
-        super(HesapMakinem, self).__init__()
-
         self.hesap()
 
     def toplama(self,a,b):
@@ -21,7 +19,7 @@ class HesapMakinem():
         return a/b
 
     def hesap(self):
-        ad=input("Ad : ")
+        ad=input(colorama.Fore.RED+"Ad : ")
         print(colorama.Fore.YELLOW+f"Merhaba {ad} seni aramızda görmek harika :)\n".center(100))
         time.sleep(1)
 
@@ -30,11 +28,11 @@ class HesapMakinem():
         sayi1=int(input("1. Sayı : "))
         sayi2=int(input("2. Sayı : "))
 
-        secim=input("+\n-\n*\n/\nSeçiminiz : ")
+        secim=input("\n+\n-\n*\n/\n\nSeçiminiz : ")
 
         if secim=="+":
 
-            print(f"İşlem sonucunuz = {self.toplama(sayi1,sayi2)}")
+            print(f"\nİşlem sonucunuz = {self.toplama(sayi1,sayi2)}")
         elif secim=="-":
             self.cikarma(sayi1,sayi2)
         elif secim=="*":

@@ -78,11 +78,11 @@ questions = Quiz(questions)
 class Not():
             def yaz(self):
                 result = input("\n ...Notlarım... \n")
-                with open("notlarim.txt", "a", encoding="UTF-8") as file:
+                with open("my_notes.txt", "a", encoding="UTF-8") as file:
                     file.write(result)
 
             def oku(self):
-                with open("notlarim.txt", encoding="UTF-8") as file:
+                with open("my_notes.txt", encoding="UTF-8") as file:
                     print(f"{colorama.Fore.RED + ' === Notlarınız ==='.center(90)}\n")
                     print(colorama.Fore.YELLOW + file.read())
 
@@ -96,10 +96,10 @@ while True:
     if islem=="1":
         class Su_bolumu:
             def temel(self):
-                with open("su.txt", "r", encoding="UTF-8") as file:
+                with open("water_information.txt", "r", encoding="UTF-8") as file:
                     print(colorama.Fore.MAGENTA, file.read())
             def detaybilgi(self):
-                with open("su_detay.txt", "r", encoding="UTF-8") as file1:
+                with open("water_detailed_information.txt", "r", encoding="UTF-8") as file1:
                     print(colorama.Fore.GREEN, file1.read())
         while True:
             a1 = Su_bolumu()
